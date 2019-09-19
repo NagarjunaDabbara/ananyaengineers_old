@@ -1,0 +1,15 @@
+.content1 h1{
+   line-height: 70px;
+   color:#06659B;
+}
+.content1{
+    max-width: 100%;
+    height:150px;
+    text-align: center;
+    justify-content:center ;
+    margin:0 auto;
+    margin-top:20px;
+    padding:0 rem;
+    background:#efefef;
+}
+ 

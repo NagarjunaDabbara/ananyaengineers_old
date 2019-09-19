@@ -1,0 +1,247 @@
+.img-container{
+  height:820px;
+  width:100%;
+  background-image:url('./../assets/ananyaElite.PNG');
+ background-size: cover;
+ background-position: center;
+ position: relative;
+ background-repeat: no-repeat;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.container{
+  
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+.container h2{
+color:#06659B
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+.single-room {
+    padding: 5rem 0 0 0;
+  }
+  .single-room-images {
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 50px;
+  }
+  .single-room-images img {
+    width: 100%;
+    display: block;
+  }
+  .single-room-info {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .single-room-info .fileDownload{
+    margin-top:20px; 
+    margin-left:1%;
+  
+    
+   }
+   .single-room-info button{
+   margin-top:50px;
+    margin-left:30%;
+   }
+
+ .slideimg1{
+   
+    margin-left:1%;
+    width: 75%;
+    height:75%;
+   }
+   .slideimg2{
+    margin-top:-612px; 
+    margin-left:92%;
+     width: 75%;
+     height:55%;
+   }
+   
+   .single-room-info .desc h1{
+   color:#06659B
+  }
+  
+  .single-room-info .desc h3 {
+    margin-left:20%;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+  .single-room-info .desc p {
+   
+    line-height:2px;
+  }
+  h2 strong{
+    color:#06659B;
+  }
+  
+  .showLargerImage{
+    width:99%;
+    height:600px;
+    margin-left:5px;
+   
+    padding-left:20px
+}
+input[type="radio"]{
+  width:175px;
+  height:112px;
+  border:1px solid black;
+  display:block;
+  -webkit-appearance: none;
+  margin-top:35px;
+  cursor:pointer;
+  }
+  
+  .display-images{
+    margin-top:59%;
+    width:1200px;
+    height:570px;
+    position: absolute;
+    top:20px;
+    right:20px;
+    background: no-repeat;
+    transition-duration: .6s;
+
+}
+#one{
+
+  background-image: url('./../assets/type1.PNG');
+  background-size:cover;
+}
+#two{
+  background-image: url('./../assets/type3.PNG');
+  background-size:cover;
+}
+#three{
+  background-image: url('./../assets/type2.PNG');
+  background-size:cover;
+}
+#four{
+  background-image: url('./../assets/type.PNG');
+  background-size:cover;
+}
+
+#one:checked~.display-images{
+  background-image: url('./../assets/type1.PNG')
+}
+#two:checked~.display-images{
+  background-image: url('./../assets/type3.PNG')
+}
+#three:checked~.display-images{
+  background-image: url('./../assets/type2.PNG')
+}
+#four:checked~.display-images{
+  background-image: url('./../assets/type.PNG')
+}
+
+.room-extras {
+    width: 80vw;
+   
+  }
+  .room-extras h1{
+    color:#06659B;
+  }
+  .room-extras h3 {
+    
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+  .extras {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+  }
+  @media screen and (min-width: 992px) {
+    .single-room-images,
+    .single-room-info,
+    .room-extras {
+      width: 95vw;
+      max-width: 1170px;
+    }
+    .single-room-info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 2rem;
+    }
+   
+  }
+
+
+
+
+
+  
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  

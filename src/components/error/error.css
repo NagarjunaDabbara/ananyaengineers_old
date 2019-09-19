@@ -1,0 +1,19 @@
+.notfound h2 {
+    font-family: Comic Sans MS;
+    font-size: 140px;
+    padding: 0 0 1.7rem;
+    margin: 0;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.notfound h3 {
+    font-size: 40px;
+    padding: 0 0 0.6rem;
+    margin: 0;
+}
+
+.notfound p {
+    padding: 1rem 0 1.4rem;
+    margin-bottom: 0;
+}
