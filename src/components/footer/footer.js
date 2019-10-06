@@ -127,24 +127,21 @@ const Footer=()=>(
                 <div class="window"></div>
               </div>
             </div>
+
             <div class="hanging">
-              <div class="rope"></div>
-              <div class="tbl">
-                <div class="tbl-row">
-                  <div class="tbl-cell"><a href="https://www.facebook.com/amarnath.yerramala" target="_blank"><i class="fa fa-facebook"></i></a></div>
-                 
-                </div>
-     
-                <div class="tbl-row">
-                  <div class="tbl-cell"></div>
-                <div class="tbl-cell"></div>
-                <div class="tbl-cell"><a href="https://ananyaeliteproject.herokuapp.com" target="_blank"><i class="fa fa-globe"></i></a></div>
+              
+              <div class="rope"></div>              
+                <div class="tbl">                 
+                  <div class="tbl-row">
+                   <div class="tbl-cell"><a href="https://www.facebook.com/amarnath.yerramala" target="_blank"><i class="fa fa-facebook"></i></a></div>                 
+                  </div>
+                  <div class="tbl-row">
+                   <div class="tbl-cell"><a href="https://ananyaeliteproject.herokuapp.com" target="_blank"><i class="fa fa-globe"></i></a></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
     </div>
     
  <div className="footer-bottom">
