@@ -19,7 +19,7 @@ return(
             <input type="radio" name="radio-buttons" id="img-1" checked />
             <li className="slide-container">
                 <div className="slide-image">
-                <p>I am really happy with for choosing Ananya Engineers for my first home. I liked the locality, build quality and the price they provide. I am happy that I made a best choice. -- Shiva Prasad D</p>
+                  <img src={review3}/>
                 </div>
                 <div className="carousel-controls">
                     <label for="img-3" className="prev-slide">
