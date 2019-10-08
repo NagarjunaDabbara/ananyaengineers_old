@@ -26,7 +26,7 @@ const Footer=()=>(
               <p>Address:Ananya Engineers(Reg as Ananya Global Consultants) 
               1 St Floor, SS Complex,
               Kamalanagar,
-              Anantapur - 515001, Beside Muthoot Finance - Dcms Road.</p>
+              Anantapur - 515001, Beside Muthoot Finance - DCMS Road.</p>
             </div>
             <div className="clr"></div>
           </div>
@@ -50,7 +50,7 @@ const Footer=()=>(
            <div className="footer-contact-box">
             <div className="footer-contact-icon"><i className="fa fa-envelope"></i></div>
             <div className="footer-contact-text">
-              <p><a href="mailto:info@learningtutorialpoingt.com">ananyaengineers@rediffmail.com</a></p>
+              <p><a href="mailto:ananyaengineers@rediffmail.com">ananyaengineers@rediffmail.com</a></p>
             </div>
             <div className="clr"></div>
           </div>
@@ -58,7 +58,7 @@ const Footer=()=>(
            <div className="footer-contact-box">
             <div className="footer-contact-icon"><i className="fa fa-globe"></i></div>
             <div className="footer-contact-text">
-            <p><a href="mailto:info@learningtutorialpoingt.com">y.armaranth@gmail.com</a></p>
+            <p><a href="mailto:y.armaranth@gmail.com">y.armaranth@gmail.com</a></p>
             </div>
             <div className="clr"></div>
           </div>
