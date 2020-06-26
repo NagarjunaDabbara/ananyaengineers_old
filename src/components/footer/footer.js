@@ -145,7 +145,7 @@ const Footer=()=>(
 <div className="row">
    <div className="mycompanyname">
      <p className="text-white">©Copyright 2009-2020 . All rights reserved | Designed by
-			<a href="http://www.trinetrawebtechnologies.com" TrinetraWebTechnologies > target="_blank" </a>
+			<a href="http://www.trinetrawebtechnologies.com"> target="_blank" TrinetraWebTechnologies </a>
 		 </p>
       </div>
    
