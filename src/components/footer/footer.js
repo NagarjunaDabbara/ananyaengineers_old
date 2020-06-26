@@ -144,13 +144,11 @@ const Footer=()=>(
 <div className="footer-bottom">
 <div className="row">
    <div className="mycompanyname">
-     <p className="text-white">©Copyright 2009-2020 . All rights reserved | Design by
+     <p className="text-white">©Copyright 2009-2020 . All rights reserved | Designed by
 			<a href="http://www.trinetrawebtechnologies.com"> TrinetraWebTechnologies</a>
 		 </p>
       </div>
-     <div className="col-lg-12 col-md-12 col-sm-12">
-       <p>&copy;Copyright 2019 Ananya Engineers  All Rights Reserved</p>
-     </div>
+   
     </div>
  </div>
 
