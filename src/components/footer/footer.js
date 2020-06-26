@@ -145,7 +145,7 @@ const Footer=()=>(
 <div className="row">
    <div className="mycompanyname">
         
-        <p>SITE BY <span>BRAVE  MAN</span></p>
+        <p>SITE BY <a href="http://www.trinetrawebtechnologies.com"</a></p>
       </div>
      <div className="col-lg-12 col-md-12 col-sm-12">
        <p>&copy;Copyright 2019 Ananya Engineers  All Rights Reserved</p>
